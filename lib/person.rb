@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require "pry"
 class Person
     attr_reader :happiness, :hygiene
@@ -89,4 +90,28 @@ class Person
 
     # binding.pry
  
+=======
+# your code goes here
+class Person
+
+  attr_writer :bank_account, :happiness
+  
+  def initialize(name)
+    @name = name
+  end
+  
+  def name
+    @name
+  end
+  
+  def bank_account(balance = 25)
+    @bank_account = balance
+  end
+  
+  def happiness(happiness_index = 8)
+    @happiness = happiness_index
+  end
+  
+  
+>>>>>>> 1e9c26a3195955eb17c00455bbd1b5edab6b1069
 end
